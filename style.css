@@ -1,14 +1,65 @@
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nav-div {
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: between;
+}
+
+.nav-div div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-div div ul {
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-div div ul li {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 span {
-    font-weight: bold;
-
+    color: red;
+    size: 2em;
 }
+
+h1 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 200px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.you {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 200px;
+    font-weight: 800;
+    margin: 30px;
+}
+
 .christine {
     color: #8792a3;
     font-family: Verdana, Geneva, Tahoma, sans-serif
