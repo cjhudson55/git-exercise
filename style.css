@@ -1,3 +1,12 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+span {
+    font-weight: bold;
+
+}
 .christine {
     color: #8792a3;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -5,4 +14,3 @@
 
 .christine img {
     width: 50px;
-}
