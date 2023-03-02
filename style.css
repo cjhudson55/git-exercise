@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nav-div {
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: between;
+}
+
+.nav-div div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-div div ul {
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-div div ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+span {
+    color: red;
+    size: 2em;
+}
+
 h1 {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 200px;
@@ -22,3 +65,4 @@ h1 {
 .christine img {
     width: 50px;
 }
+
