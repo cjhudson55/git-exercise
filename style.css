@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nav-div {
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: between;
+}
+
+.nav-div div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-div div ul {
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-div div ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+span {
+    color: red;
+    size: 2em;
+}
