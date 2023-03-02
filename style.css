@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap');
+
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 200px;
+    font-weight: 400;
+    margin: 30px;
 }
 
-span {
-    font-weight: bold;
+p {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 200px;
+    font-weight: 800;
+    margin: 30px;
 }
